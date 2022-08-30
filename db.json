@@ -1,0 +1,67 @@
+{
+    "proyecto-grado": [
+      {
+        "id": 1,
+        "title": "Estudios en homenaje a Alfredo Matus Olivier. volumen I",
+        "gestion": "2000",
+        "autor": "Alvin Acuña",
+        "carrera": "Sistemas informaticos"
+      },
+      {
+        "id": 2,
+        "title": "Transporte del cloro y sodio a través de la piel in situ de Anfibios Sudamericanos ",
+        "gestion": "2001",
+        "autor": "Marcos Barrientos",
+        "carrera": "Gastronomia"
+      },
+      {
+        "id": 3,
+        "title": "Historia general de Chile. Tomo 1: El retorno de los dioses ",
+        "gestion": "2002",
+        "autor": "Gabriel Garcia",
+        "carrera": "Electronica"
+      },
+      {
+        "id": 4,
+        "title": "Consideraciones sobre el error",
+        "gestion": "2004",
+        "autor": "Ignacio Benavente",
+        "carrera": "Industria de alimentos"
+      },
+      {
+        "id": 5,
+        "title": "Sobrevivencia en cáncer cervico uterino, Servicio de Salud Metropolitano Sur Oriente ﻿",
+        "gestion": "2007",
+        "autor": "Juan Melgar",
+        "carrera": "Mecanica Industrial"
+      },
+      {
+        "id": 6,
+        "title": "Discurso pronunciado por el Sr. Rector de la Universidad, D. Andrés Bello, en la instalación de este",
+        "gestion": "2009",
+        "autor": "Julio Esteban",
+        "carrera": "Mecanica Automitriz"
+      },
+      {
+        "id": 7,
+        "title": "Discurso pronunciado por el r. p. fr. Francisco Briceño, de la Orden de Relijiosos Franciscanos, miembro ",
+        "gestion": "2010",
+        "autor": "Rudy Lescano",
+        "carrera": "Sistemas Informaticos"
+      },
+      {
+        "id": 8,
+        "title": "Reseña sobre las diferentes constituciones políticas que an rejido a Chile desde su emancipación de",
+        "gestion": "2011",
+        "autor": "Alejandro Sisteres",
+        "carrera": "Electronica"
+      },
+      {
+        "id": 9,
+        "title": "Discurso pronunciado por el presbítero d. Eujenio Guzmán el día de su incorporación solemne, 25 de",
+        "gestion": "2012",
+        "autor": "Hugo Yujra",
+        "carrera": "Gastronomia"
+      }
+    ]
+  }
