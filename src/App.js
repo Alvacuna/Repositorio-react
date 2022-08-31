@@ -3,6 +3,7 @@ import "./App.css";
 import { useEffect, useState } from "react";
 import { WorkGrade } from "./components/WorkGrade/WorkGrade";
 import { getAllProyectGrades } from "./services/getAllProyectGrades";
+import { FormFilter } from "./components/WorkGrade/FormFilter";
 
 const App = () => {
   const [proyectGrade, setProyectGrade] = useState([]);
@@ -32,12 +33,7 @@ const App = () => {
   });
   return (
     <div className="container">
-      <form className="formBusc" onSubmit={addSearch}>
-        <input className="formBusc__input" onChange={handleChange} />
-        <button className="formBusc__button" type="submit">
-          Buscar
-        </button>
-      </form>
+      <FormFilter handleChange={handleChange} addSearch={addSearch}/>
       <ul className="containerGrid">
         {filterGrades.map((proyectGrad) => (
           <WorkGrade {...proyectGrad} key={proyectGrad.id} />
