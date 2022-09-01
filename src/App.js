@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { WorkGrade } from "./components/WorkGrade/WorkGrade";
 import { getAllProyectGrades } from "./services/getAllProyectGrades";
 import { FormFilter } from "./components/WorkGrade/FormFilter";
+import { Link, BrowserRouter } from "react-router-dom";
 
 const App = () => {
   const [proyectGrade, setProyectGrade] = useState([]);
@@ -33,7 +34,30 @@ const App = () => {
   });
   return (
     <div className="container">
-      <FormFilter handleChange={handleChange} addSearch={addSearch}/>
+      <BrowserRouter>
+      <header className="header">
+        <div className="header__container">
+          <Link className="header__title" to="#">
+            <p className="title">REPOSITORIO ACADEMICO DE EL ITPM</p>
+          </Link>
+          <nav className="nav">
+            <Link to="#" className="Nav__a">
+              Ayuda
+            </Link>
+
+            <Link to="#" className="Nav__a">
+              Contacto
+            </Link>
+            <Link to="#" className="Nav__a">
+              Acerca de
+            </Link>
+          </nav>
+        </div>
+      </header>
+      </BrowserRouter>
+
+      
+      <FormFilter handleChange={handleChange} addSearch={addSearch} />
       <ul className="containerGrid">
         {filterGrades.map((proyectGrad) => (
           <WorkGrade {...proyectGrad} key={proyectGrad.id} />
