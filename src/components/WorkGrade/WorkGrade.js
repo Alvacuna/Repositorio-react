@@ -1,11 +1,14 @@
-export const WorkGrade = ({ title, autor, gestion, carrera }) => {
+import "./WorkGrade.css"
+
+export const WorkGrade = ({ title, autor, gestion, carrera, portada }) => {
   return (
 
         <li className="gridProyect">
-          <h3>{title}</h3>
-          <p>{autor}</p>
-          <p>{gestion}</p>
-          <p>{carrera} 1</p>
+          <img alt={"Portada"}  src={portada} className="gridProyect__img"></img>
+          <h3 className="gridProyect__title">{title}</h3>
+          <p className="gridProyect__autor">{autor}</p>
+          <p className="gridProyect__gestion">{gestion}</p>
+          <p className="gridProyect__carrera">{carrera}</p>
         </li>
         )
 };

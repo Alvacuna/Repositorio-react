@@ -1,0 +1,12 @@
+.formBusc{
+    border: 1px solid black;
+    width: 90%;
+    height: 50px;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 3fr 1fr;
+}
+
+.formBusc__input {
+    height: 20px;
+}
